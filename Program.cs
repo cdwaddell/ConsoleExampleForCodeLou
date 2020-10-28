@@ -6,7 +6,8 @@ namespace TempProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var contactManager = new ContactManager();
+            contactManager.StartMenuUserInterface();
         }
     }
 }
